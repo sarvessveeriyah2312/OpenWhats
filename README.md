@@ -331,4 +331,3 @@ reverse-whatsapp-web/
   and warm-up state themselves are persisted (SQLite), so restarting
   doesn't reset your quotas — only in-flight queued messages from the last
   few minutes before a restart would need to be resent.
-# OpenWhats
