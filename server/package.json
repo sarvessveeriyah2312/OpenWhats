@@ -1,0 +1,23 @@
+{
+  "name": "reverse-whatsapp-web-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-hosted reverse WhatsApp Web server - REST API + webhooks over a Baileys WhatsApp session",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "better-sqlite3": "^11.9.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^2.2.0",
+    "pino": "^9.6.0",
+    "qrcode": "^1.5.4"
+  }
+}
